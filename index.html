@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Bootstrap Cheat sheet</title>
+    <style type="text/css" rel="stylesheet">
+      .row div{padding: 20px 10px; border: 1px solid;}
+    </style>
+  </head>
+  <body>
+
+    <!-----------------------------NAVBAR TOP-------------------------------------->
+
+    <nav class="navbar navbar-toggleable-sm bg-info navbar-inverse">
+      <div class="container">
+        <button class="navbar-toggler" data-toggle="collapse" data-target=#mainNav>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active text-white" href="#">Home</a>
+            <a class="nav-item nav-link text-white" href="#">About</a>
+            <a class="nav-item nav-link text-white" href="#">Training</a>
+            <a class="nav-item nav-link text-white" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>  
+
+
+<!------------------------------------MID TEXT------------------------------------------------------->
+
+    <!--Jumbotron-fluid cancels out curved edges.Jumbotron creates a background for navbar-->
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center" style="background: #aaa;">
+      <!--Adding container arnd h1 and p tag tio centralize text-->
+      <div class="container">
+        <h1 class="display-1">Welcome to the Dojo</h1>
+        <p class="lead">
+          A guiding light for the less enlightened...
+        </p>
+      </div>    
+    </div>
+  
+<!-----------------------------------CARDS & IMAGES--------------------------------------------------------->
+
+    <div class="container text-muted">
+
+      <!-----------cards------------>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="pic2.jpg" class="card-img-top img-fluid">
+            <div class="card-block"> 
+              <h3 class="card-title">Node.js Training</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam consequat. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="pic3.jpg" class="card-img-top img-fluid">
+            <div class="card-block"> 
+              <h3 class="card-title">Node.js Training</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam consequat. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="Tekstedia1.jpg" class="card-img-top img-fluid">
+            <div class="card-block"> 
+              <h3 class="card-title">Node.js Training</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam consequat. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card">
+            <img src="pic4.jpg" class="card-img-top img-fluid">
+            <div class="card-block"> 
+              <h3 class="card-title">Node.js Training</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam consequat. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!----------------------FOOTER----------------------------------------->
+
+      <h2 class="display-4 text-center py-5 my-4">Meet the Speakers</h2>
+
+      <nav class="nav justify-content-center nav-pills flex-column flex-md-row">
+        <a class="nav-link active" href="#ninja"  data-toggle="tab">The Net Ninja</a>
+        <a class="nav-link" href="#wizard" data-toggle="tab">The Web Wizard</a>
+        <a class="nav-link" href="#captain"  data-toggle="tab">Captain Code</a>
+        <a class="nav-link" href="#avenger"  data-toggle="tab">Angular Avenger</a>
+      </nav>
+
+<!---------------------USING TOOLTIPS--------------------->
+      <div class="tab-content py-5">
+        <div class="tab-pane" id="ninja">
+          <h3>The Net Ninja</h3>
+          <p>
+            Lorem <span data-toggle="tooltip" title="this is a tooltip" class="text-info" data-placement="bottom">ipsum dolor sit</span>amet,consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua;The swiftest networker alive!
+          </p>
+        </div>
+        <div class="tab-pane active" id="wizard">
+          <h3>The Web Wizard</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua;The All-Knowing Web Warlock.
+          </p>
+        </div>
+        <div class="tab-pane" id="captain">
+          <h3>Captain Code</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua;Hero of baby programmers.
+          </p>
+        </div>
+        <div class="tab-pane" id="avenger">
+          <h3>Angular Avenger</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua;Defender of Algorithmic Galaxies.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!--  <div class="row" style="background-color: lightblue">
+        <div class="col-md">col-md</div>
+        <div class="col-md-8">col-md</div>
+        <div class="col-md">col-md</div>
+        <div class="col-md">col-md</div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col-md-2 flex-last">1 col-md-2</div>
+        <div class="col-md-2 flex-first">2 col-md-2</div>
+        <div class="col-md-2">3 col-md-2</div>
+      </div>
+
+       <div class="row" style="background-color:yellow">
+        <div class="col-3">col-3</div>
+        <div class="col-3">col-3</div>
+        <div class="col-3">col-3</div>
+        <div class="col-3">col-3</div>
+       </div>-->
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-------------------------------ENABLING TOOLTIPS----------------------------->
+
+    <script type="text/javascript">
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      })
+    </script>
+  </body>
+</html>
